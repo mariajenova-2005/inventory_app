@@ -1,16 +1,99 @@
-# inventory_app
+# 📦 **Inventory App - README.md**
 
-A new Flutter project.
+```markdown
+# Inventory Manager
 
-## Getting Started
+A Flutter-based inventory management app with offline support, CRUD operations, and mock API integration.
 
-This project is a starting point for a Flutter application.
+## ✨ Features
 
-A few resources to get you started if this is your first Flutter project:
+- **Complete CRUD** - Create, Read, Update, Delete items
+- **Offline Support** - Works without internet, syncs when online
+- **Mock API** - Simulated cloud storage with sample data
+- **Smart Sync** - Queue system for offline changes
+- **Beautiful UI** - Modern design with status badges
+- **Search** - Filter items by name, ID, or description
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🚀 Tech Stack
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Flutter & Dart
+- SharedPreferences (local storage)
+- UUID (unique IDs)
+
+## 📱 Quick Start
+
+```bash
+git clone https://github.com/yourusername/inventory_app.git
+cd inventory_app
+flutter pub get
+flutter run -d chrome
+```
+
+## 🎯 Key Features
+
+| Feature | Description |
+|---------|-------------|
+| **Add Item** | Form validation for name, description, price |
+| **Edit Item** | Pre-filled form with update capability |
+| **Delete Item** | Confirmation dialog before removal |
+| **Search** | Real-time filtering |
+| **Sync** | Queue-based offline sync |
+
+## 📊 Data Flow
+
+```
+User Action → Local Storage → UI Update
+     ↓
+Add to Sync Queue
+     ↓
+When Online → Mock API → Update Status
+```
+
+## 🎨 Visual Indicators
+
+- 🟢 **Green Badge** - Synced with cloud
+- 🟠 **Orange Badge** - Local only (pending sync)
+
+## 📦 Sample Cloud Items
+
+- Wireless Mouse (₹1,299)
+- Mechanical Keyboard (₹4,599)
+- Gaming Monitor (₹21,999)
+- Laptop Stand (₹1,999)
+- USB-C Hub (₹2,499)
+
+## 🔧 Dependencies
+
+```yaml
+shared_preferences: ^2.2.2  # Local storage
+uuid: ^4.3.3                 # Unique IDs
+```
+
+## 📱 Platform Support
+
+- ✅ Android & iOS
+- ✅ Web (Chrome)
+- ✅ Windows & macOS
+
+## 👩‍💻 Author
+
+**Maria Jenova S** - Flutter Developer Intern  
+Loyola-ICAM College of Engineering and Technology (LICET)  
+*Dec 2025 - Jan 2026*
+
+---
+
+## 🚀 Run Locally
+
+```bash
+flutter pub get && flutter run -d chrome
+```
+
+**Made with ❤️ using Flutter**
+```
+
+---
+
+## 📝 **GitHub Description (One Line)**
+
+> **"Flutter inventory app with offline CRUD, mock API sync, and smart queue - works seamlessly online & offline."**
