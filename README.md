@@ -7,12 +7,12 @@ A Flutter-based inventory management app with offline support, CRUD operations, 
 
 ## ✨ Features
 
-- **Complete CRUD** - Create, Read, Update, Delete items
-- **Offline Support** - Works without internet, syncs when online
-- **Mock API** - Simulated cloud storage with sample data
-- **Smart Sync** - Queue system for offline changes
-- **Beautiful UI** - Modern design with status badges
-- **Search** - Filter items by name, ID, or description
+- Complete CRUD - Create, Read, Update, Delete items
+- Offline Support - Works without internet, syncs when online
+- Mock API - Simulated cloud storage with sample data
+- Smart Sync - Queue system for offline changes
+- Beautiful UI - Modern design with status badges
+- Search - Filter items by name, ID, or description
 
 ## 🚀 Tech Stack
 
@@ -75,11 +75,6 @@ uuid: ^4.3.3                 # Unique IDs
 - ✅ Web (Chrome)
 - ✅ Windows & macOS
 
-## 👩‍💻 Author
-
-**Maria Jenova S** - Flutter Developer Intern  
-Loyola-ICAM College of Engineering and Technology (LICET)  
-*Dec 2025 - Jan 2026*
 
 ---
 
@@ -88,12 +83,3 @@ Loyola-ICAM College of Engineering and Technology (LICET)
 ```bash
 flutter pub get && flutter run -d chrome
 ```
-
-**Made with ❤️ using Flutter**
-```
-
----
-
-## 📝 **GitHub Description (One Line)**
-
-> **"Flutter inventory app with offline CRUD, mock API sync, and smart queue - works seamlessly online & offline."**
